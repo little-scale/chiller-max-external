@@ -2,6 +2,8 @@
 
 A Max/MSP external that performs real-time spectral freezing of audio buffer content, creating evolving drones and textural sounds through FFT-based granular synthesis.
 
+Note - this is a work in progress. 
+
 ## Overview
 
 chiller~ captures the spectral content of any position within an audio buffer and "freezes" it into a continuous, evolving drone. The frozen spectrum is continuously resynthesized with configurable phase randomization and amplitude variation, creating rich, organic textures from the original audio material.
